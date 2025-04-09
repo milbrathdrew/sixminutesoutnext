@@ -1,80 +1,83 @@
 # Tech Context
 
 ## Technologies Used
-1. Version Control
-   - Git
-   - GitHub/GitLab
-   - Git Flow
+1. Core Framework
+   - Next.js
+   - React
+   - TypeScript
+   - Static Site Generation
 
-2. Documentation
-   - Markdown
-   - Mermaid diagrams
-   - Version-controlled docs
+2. Styling
+   - CSS Modules or Tailwind CSS
+   - Responsive design
+   - Mobile-first approach
 
-3. Development Tools
-   - IDE: Cursor
-   - Linters
-   - Formatters
-   - Testing frameworks
+3. Deployment & Hosting
+   - Cloudflare Pages
+   - GitHub for version control
+   - Cloudflare CDN
+
+4. Analytics & SEO
+   - Google Analytics 4
+   - Google Search Console
+   - XML Sitemap
+   - Meta tags optimization
 
 ## Development Setup
 1. Local Environment
    - Operating System: macOS
    - Shell: zsh
-   - Git
-   - Node.js
-   - Package managers
-
-2. IDE Configuration
-   - Cursor settings
-   - Extensions
-   - Code snippets
-   - Keyboard shortcuts
-
-3. Development Tools
-   - Linters
-   - Formatters
-   - Testing tools
-   - Build tools
-
-## Technical Constraints
-1. Version Control
-   - Branch protection rules
-   - Commit message format
-   - Review requirements
-   - Merge strategies
-
-2. Code Quality
-   - Linting rules
-   - Testing coverage
-   - Documentation requirements
-   - Performance benchmarks
-
-3. Security
-   - Access control
-   - Dependency management
-   - Secret management
-   - Compliance requirements
-
-## Dependencies
-1. Development Dependencies
    - Node.js
    - npm/yarn
    - Git
-   - Testing frameworks
-   - Linting tools
 
-2. Documentation Dependencies
-   - Markdown parser
-   - Mermaid diagrams
-   - Version control
-   - Documentation tools
+2. IDE Configuration
+   - Cursor
+   - ESLint
+   - Prettier
+   - TypeScript support
 
-3. Build Dependencies
-   - Build tools
-   - Compilers
-   - Bundlers
-   - Minifiers
+3. Development Tools
+   - Next.js CLI
+   - Lighthouse for performance testing
+   - Browser DevTools
+   - Responsive design testing tools
+
+## Technical Constraints
+1. Performance
+   - Lighthouse score target: 90+ in all categories
+   - Core Web Vitals optimization
+   - Image optimization
+   - Font optimization
+
+2. SEO
+   - Semantic HTML with proper heading hierarchy
+   - Meta tag implementation
+   - XML sitemap generation
+   - Mobile-first indexing support
+
+3. Email Deliverability
+   - DNS configuration (SPF, DKIM, DMARC)
+   - Clean HTML implementation
+   - Technical separation from email infrastructure
+
+## Dependencies
+1. Core Dependencies
+   - Next.js
+   - React
+   - TypeScript
+   - ESLint
+   - Prettier
+
+2. SEO Dependencies
+   - next-seo
+   - next-sitemap
+   - structured-data
+
+3. Performance Dependencies
+   - next/image for image optimization
+   - next/font for font optimization
+   - next/script for script optimization
 
 ## Environment Setup
 1. Local Development
@@ -92,14 +95,14 @@
    npm run dev
    ```
 
-2. CI/CD Pipeline
-   - Build process
-   - Test automation
-   - Deployment steps
-   - Environment configuration
+2. Deployment
+   - Cloudflare Pages setup
+   - GitHub repository connection
+   - Environment variables configuration
+   - Build settings
 
-3. Production Environment
-   - Server requirements
-   - Scaling configuration
-   - Monitoring setup
-   - Backup strategy 
+3. DNS Configuration
+   - SPF record setup
+   - DKIM record setup
+   - DMARC record setup
+   - Domain verification 
