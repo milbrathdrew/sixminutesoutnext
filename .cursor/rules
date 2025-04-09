@@ -34,28 +34,28 @@ Types:
 
 ## Development Patterns
 1. Component Structure
+   - Atomic design methodology
    - Single responsibility
    - Clear interfaces
    - Proper documentation
    - Unit tests
 
-2. State Management
-   - Centralized store
-   - Immutable updates
-   - Action creators
-   - Selectors
+2. Performance Optimization
+   - Use next/image for images
+   - Use next/font for fonts
+   - Implement code splitting
+   - Optimize Core Web Vitals
 
-3. Error Handling
-   - Try-catch blocks
-   - Error boundaries
-   - Logging
-   - User feedback
+3. SEO Implementation
+   - Semantic HTML structure
+   - Proper heading hierarchy
+   - Meta tag optimization
+   - Structured data implementation
 
-4. Logging Standards
-   - Consistent format
-   - Appropriate levels
-   - Context included
-   - Performance impact
+4. Email Deliverability
+   - Clean HTML implementation
+   - Proper DNS configuration
+   - Technical separation from email infrastructure
 
 ## User Preferences
 1. Documentation
@@ -77,26 +77,27 @@ Types:
    - Quick feedback
 
 4. Deployment Process
-   - Staging environment
-   - Automated testing
-   - Rollback plan
-   - Monitoring
+   - Cloudflare Pages
+   - CDN configuration
+   - DNS setup
+   - Security headers
 
 ## Project Intelligence
 1. Critical Paths
-   - Documentation updates
-   - Code review process
-   - Testing requirements
-   - Deployment workflow
+   - Next.js project setup
+   - Component development
+   - SEO implementation
+   - Performance optimization
+   - Deployment configuration
 
 2. Known Challenges
-   - Documentation maintenance
-   - Workflow adoption
-   - Technical debt
-   - Team coordination
+   - Client content integration
+   - Design direction confirmation
+   - DNS configuration details
+   - Email deliverability optimization
 
 3. Evolution Notes
    - Initial setup: [Current Date]
-   - Documentation system established
-   - Development workflow defined
-   - Next phase: Environment setup 
+   - Project requirements documented
+   - Architecture defined
+   - Next phase: Next.js project initialization 

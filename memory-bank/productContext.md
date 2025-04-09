@@ -1,63 +1,66 @@
 # Product Context
 
 ## Why This Project Exists
-This project aims to establish a robust foundation for software development with a focus on:
-- Clear documentation
-- Efficient workflows
-- Quality assurance
-- Maintainable codebase
+This project aims to create a high-performance website for Six Minutes Out PR that:
+- Establishes a strong online presence
+- Supports email outreach activities (20-30 pitches/day)
+- Optimizes for search engine visibility
+- Provides information about services and expertise
+- Showcases client success stories
 
 ## Problems It Solves
-1. Documentation Management
-   - Lack of centralized documentation
-   - Inconsistent documentation practices
-   - Difficulty in maintaining project knowledge
+1. Online Presence
+   - Lack of professional website
+   - Need for established online identity
+   - Requirement for service information display
 
-2. Development Workflow
-   - Inefficient development processes
-   - Lack of standardized practices
-   - Poor version control management
+2. Email Deliverability
+   - Need for strong domain reputation
+   - Support for email outreach activities
+   - Technical optimization for email deliverability
 
-3. Code Quality
-   - Inconsistent code standards
-   - Lack of automated quality checks
-   - Difficult maintenance
+3. Search Visibility
+   - Need for improved search engine rankings
+   - Requirement for SEO optimization
+   - Need for structured content presentation
 
 ## How It Should Work
-### Documentation System
-- Centralized memory bank
-- Clear update procedures
-- Version-controlled documentation
-- Easy access and navigation
+### Website Structure
+- Home Page: Hero section, services overview, call-to-action
+- About Page: Company background and expertise information
+- Services Page: Detailed service offerings with structured information
+- Success Stories: Client work showcase (future expansion)
+- Contact Page: Simple contact information display
+- Blog Integration: Preparation for future blog or AI-generated content
 
-### Development Workflow
-- Clear branch strategy
-- Standardized commit messages
-- Automated quality checks
-- Efficient review process
+### Technical Implementation
+- Next.js static site generation
+- SEO optimization with proper technical structure
+- Responsive design for all devices
+- Performance optimization for fast load times
+- Security implementation for protection
 
 ### User Experience Goals
-1. For Developers
-   - Easy access to documentation
-   - Clear development guidelines
-   - Efficient workflow tools
-   - Automated quality checks
+1. For Potential Clients
+   - Easy navigation to find services
+   - Clear information about company expertise
+   - Simple contact process
+   - Fast loading experience
 
-2. For Project Managers
-   - Clear project status
-   - Easy progress tracking
-   - Efficient communication
-   - Risk management tools
+2. For Search Engines
+   - Proper semantic HTML structure
+   - Optimized meta tags
+   - XML sitemap
+   - Mobile-friendly design
 
-3. For Stakeholders
-   - Transparent progress
-   - Clear deliverables
-   - Easy status updates
-   - Accessible documentation
+3. For Email Deliverability
+   - Clean HTML implementation
+   - Proper DNS configuration
+   - Technical separation from email infrastructure
 
 ## Success Metrics
-- Documentation completeness
-- Development velocity
-- Code quality metrics
-- Team satisfaction
-- Project transparency 
+- Lighthouse performance score of 90+
+- Improved search engine rankings
+- Increased email deliverability rates
+- Positive user feedback on website experience
+- Successful showcase of services and expertise 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navigation() {
   return (
@@ -7,7 +8,8 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-xl font-bold text-gray-800">
+              <Image src="/logo.svg" alt="Six Minutes Out PR" width={40} height={40} />
+              <Link href="/" className="text-xl font-bold text-gray-800 ml-2">
                 Six Minutes Out PR
               </Link>
             </div>

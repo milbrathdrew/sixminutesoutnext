@@ -1,6 +1,9 @@
-# Allow all crawlers
+# *
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://sixminutesout.com/sitemap.xml 
+# Host
+Host: https://sixminutesout.com
+
+# Sitemaps
+Sitemap: https://sixminutesout.com/sitemap.xml
