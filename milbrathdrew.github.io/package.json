@@ -1,0 +1,14 @@
+{
+  "name": "sixminutesout-next",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://milbrathdrew.github.io",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap",
+    "deploy": "gh-pages -d out"
+  }
+} 
