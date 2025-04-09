@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // No basePath needed for root domain deployment
+  basePath: '/sixminutesoutnext',
+  assetPrefix: '/sixminutesoutnext/',
   trailingSlash: true,
 }
 
