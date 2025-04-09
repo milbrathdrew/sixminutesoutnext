@@ -7,14 +7,14 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <>
+      <div className="max-w-6xl mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
+          <h1 className="text-4xl font-extrabold text-dark sm:text-5xl">
             About Six Minutes Out PR
           </h1>
-          <p className="mt-4 text-xl text-gray-500">
+          <p className="mt-4 text-xl text-gray">
             Your partner in strategic PR and affiliate management
           </p>
         </div>
@@ -22,18 +22,18 @@ export default function About() {
         {/* Mission Section */}
         <section className="mt-16">
           <div className="grid gap-8 md:grid-cols-2">
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
-              <p className="mt-4 text-lg text-gray-500">
+            <div className="bg-light-gray p-6 rounded-lg">
+              <h2 className="text-3xl font-bold text-dark">Our Mission</h2>
+              <p className="mt-4 text-lg text-medium-dark">
                 At Six Minutes Out PR, we're dedicated to helping consumer product brands
                 establish a strong market presence through strategic public relations
                 and effective affiliate program management. We believe that every
                 product has a story worth telling, and we're here to help you tell it.
               </p>
             </div>
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900">Our Approach</h2>
-              <p className="mt-4 text-lg text-gray-500">
+            <div className="bg-light-gray p-6 rounded-lg">
+              <h2 className="text-3xl font-bold text-dark">Our Approach</h2>
+              <p className="mt-4 text-lg text-medium-dark">
                 We take a comprehensive approach to brand growth, combining traditional
                 PR strategies with modern affiliate marketing techniques. Our team
                 works closely with you to develop customized solutions that drive
@@ -45,25 +45,25 @@ export default function About() {
 
         {/* Values Section */}
         <section className="mt-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center">Our Values</h2>
+          <h2 className="text-3xl font-bold text-dark text-center">Our Values</h2>
           <div className="mt-8 grid gap-8 md:grid-cols-3">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-gray-900">Excellence</h3>
-              <p className="mt-2 text-gray-500">
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-dark">Excellence</h3>
+              <p className="mt-2 text-medium-dark">
                 We strive for excellence in everything we do, delivering high-quality
                 results that exceed expectations.
               </p>
             </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-gray-900">Innovation</h3>
-              <p className="mt-2 text-gray-500">
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-dark">Innovation</h3>
+              <p className="mt-2 text-medium-dark">
                 We embrace innovative approaches and stay ahead of industry trends
                 to provide cutting-edge solutions.
               </p>
             </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold text-gray-900">Partnership</h3>
-              <p className="mt-2 text-gray-500">
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-dark">Partnership</h3>
+              <p className="mt-2 text-medium-dark">
                 We build strong, lasting partnerships with our clients, working
                 together to achieve shared success.
               </p>
@@ -73,26 +73,26 @@ export default function About() {
 
         {/* Team Section */}
         <section className="mt-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center">Our Team</h2>
+          <h2 className="text-3xl font-bold text-dark text-center">Our Team</h2>
           <div className="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto rounded-full bg-gray-200"></div>
-              <h3 className="mt-4 text-xl font-semibold text-gray-900">Jane Smith</h3>
-              <p className="text-gray-500">Founder & CEO</p>
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <div className="w-32 h-32 mx-auto rounded-full bg-mint"></div>
+              <h3 className="mt-4 text-xl font-semibold text-dark">Jane Smith</h3>
+              <p className="text-medium-dark">Founder & CEO</p>
             </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto rounded-full bg-gray-200"></div>
-              <h3 className="mt-4 text-xl font-semibold text-gray-900">John Doe</h3>
-              <p className="text-gray-500">PR Director</p>
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <div className="w-32 h-32 mx-auto rounded-full bg-mint"></div>
+              <h3 className="mt-4 text-xl font-semibold text-dark">John Doe</h3>
+              <p className="text-medium-dark">PR Director</p>
             </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto rounded-full bg-gray-200"></div>
-              <h3 className="mt-4 text-xl font-semibold text-gray-900">Sarah Johnson</h3>
-              <p className="text-gray-500">Affiliate Manager</p>
+            <div className="text-center bg-light-gray p-6 rounded-lg">
+              <div className="w-32 h-32 mx-auto rounded-full bg-mint"></div>
+              <h3 className="mt-4 text-xl font-semibold text-dark">Sarah Johnson</h3>
+              <p className="text-medium-dark">Affiliate Manager</p>
             </div>
           </div>
         </section>
-      </main>
-    </div>
+      </div>
+    </>
   );
 } 

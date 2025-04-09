@@ -1,3 +1,88 @@
+# Six Minutes Out PR
+
+A professional website for Six Minutes Out PR agency specializing in media relations, affiliate management, and content strategy.
+
+## Pages Structure
+
+### Home Page
+- Hero section with main value proposition
+- Services overview
+- Call-to-action buttons for contact and services pages
+
+### Services
+- Media Relations
+  - Press Release Development
+  - Media Pitching
+  - Press Kit Creation
+  - Media Training
+  - Crisis Management
+  
+- Affiliate Management
+  - Program Development
+  - Affiliate Recruitment
+  - Relationship Management
+  - Performance Analytics
+  - Commission Structure Optimization
+  
+- Content Strategy
+  - Content Calendar Development
+  - SEO Optimization
+  - Blog Writing
+  - Social Media Content
+  - Email Marketing Campaigns
+
+### About
+- Company mission and values
+- Our approach
+- Team profiles
+
+### Case Studies
+- Eco-Friendly Home Goods (300% increase in media coverage)
+- Organic Beauty Brand (200+ media placements)
+- Tech Gadget Startup (75% increase in affiliate revenue)
+
+### Blog
+- PR Strategies That Drive Sales
+- Building an Effective Affiliate Program
+- Content Marketing Trends
+- Measuring PR Success
+- Crisis Management Planning
+- PR and SEO Optimization
+
+### Contact
+- Contact form
+- Office location
+- Business hours
+- Email and phone information
+
+## Design System
+
+### Colors
+- Primary: #4A6FDC (blue)
+- Primary Dark: #3857B3
+- Dark: #1A202C
+- Medium Dark: #4A5568
+- Gray: #718096
+- Light Gray: #F7FAFC
+- Mint: #B2F5EA (accent color)
+- White: #FFFFFF
+
+### Typography
+- Headings: Font weight 700-800
+- Body: Font weight 400-500
+- Main font: System font stack with fallbacks
+
+### Components
+- Button (Primary/Secondary variants, Small/Medium/Large sizes)
+- Navigation
+- Cards for case studies and blog posts
+- Contact form
+
+## Styling Implementation
+- Using Tailwind CSS for utility-based styling
+- Responsive design for all screen sizes
+- Consistent spacing and typography throughout the site
+
 # Six Minutes Out PR Website - Next.js Boilerplate
 
 ## Overview

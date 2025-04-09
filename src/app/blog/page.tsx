@@ -2,144 +2,136 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Insights and updates from Six Minutes Out PR on PR strategy and affiliate marketing.',
+  description: 'Industry insights, tips, and updates from the Six Minutes Out PR team.',
 };
 
 export default function Blog() {
   return (
-    <div className="min-h-screen bg-white">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <>
+      <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
-            Blog
-          </h1>
-          <p className="mt-4 text-xl text-gray-500">
-            Insights and updates from our team
+          <h1 className="text-4xl font-extrabold text-dark sm:text-5xl">Blog</h1>
+          <p className="mt-4 text-xl text-gray">
+            Industry insights, tips, and updates
           </p>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Blog Post 1 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 1 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">March 15, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                The Future of PR in the Digital Age
+              <div className="text-sm text-gray">March 15, 2023</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                5 PR Strategies That Actually Drive Sales
               </h2>
-              <p className="mt-3 text-gray-500">
-                Exploring how digital transformation is reshaping public relations
-                and what it means for consumer product brands.
+              <p className="mt-3 text-medium-dark">
+                Discover the most effective PR strategies that go beyond brand awareness to directly impact your bottom line.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
 
-          {/* Blog Post 2 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 2 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">March 10, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                Maximizing Affiliate Program Success
+              <div className="text-sm text-gray">February 28, 2023</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                Building an Effective Affiliate Program from Scratch
               </h2>
-              <p className="mt-3 text-gray-500">
-                Key strategies for building and maintaining successful affiliate
-                relationships in the consumer products space.
+              <p className="mt-3 text-medium-dark">
+                Learn how to create, launch, and optimize an affiliate program that attracts the right partners and drives consistent revenue.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
 
-          {/* Blog Post 3 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 3 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">March 5, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                Building Brand Authority Through Media Relations
+              <div className="text-sm text-gray">January 12, 2023</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                Content Marketing Trends to Watch in 2023
               </h2>
-              <p className="mt-3 text-gray-500">
-                How to establish your brand as an industry leader through
-                strategic media coverage and thought leadership.
+              <p className="mt-3 text-medium-dark">
+                Stay ahead of the curve with these emerging content marketing trends that are shaping the industry this year.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
 
-          {/* Blog Post 4 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 4 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">February 28, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                Content Strategy for Consumer Products
+              <div className="text-sm text-gray">December 5, 2022</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                How to Measure PR Success: Beyond Vanity Metrics
               </h2>
-              <p className="mt-3 text-gray-500">
-                Creating compelling content that resonates with your target
-                audience and drives engagement.
+              <p className="mt-3 text-medium-dark">
+                Learn which metrics truly matter when evaluating the success of your PR campaigns and how to track them effectively.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
 
-          {/* Blog Post 5 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 5 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">February 20, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                Measuring PR Success: Beyond Media Coverage
+              <div className="text-sm text-gray">November 18, 2022</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                Creating a PR Crisis Management Plan
               </h2>
-              <p className="mt-3 text-gray-500">
-                Understanding the key metrics that matter when evaluating
-                your PR campaign's effectiveness.
+              <p className="mt-3 text-medium-dark">
+                A step-by-step guide to developing a robust crisis management plan that protects your brand reputation in challenging times.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
 
-          {/* Blog Post 6 */}
-          <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-200 h-48"></div>
+          {/* Blog post 6 */}
+          <article className="bg-light-gray rounded-lg overflow-hidden shadow">
+            <div className="bg-mint h-48"></div>
             <div className="p-6">
-              <div className="text-sm text-gray-500">February 15, 2024</div>
-              <h2 className="mt-2 text-xl font-semibold text-gray-900">
-                The Power of Influencer Partnerships
+              <div className="text-sm text-gray">October 30, 2022</div>
+              <h2 className="mt-2 text-xl font-semibold text-dark">
+                The Intersection of PR and SEO: How to Optimize Both
               </h2>
-              <p className="mt-3 text-gray-500">
-                How to leverage influencer relationships to amplify your
-                brand's reach and credibility.
+              <p className="mt-3 text-medium-dark">
+                Discover strategies for aligning your PR and SEO efforts to maximize visibility and organic traffic.
               </p>
               <div className="mt-4">
-                <a href="#" className="text-blue-600 hover:text-blue-800">
+                <a href="#" className="text-primary font-medium">
                   Read more →
                 </a>
               </div>
             </div>
           </article>
         </div>
-      </main>
-    </div>
+      </div>
+    </>
   );
 } 

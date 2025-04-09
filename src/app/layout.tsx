@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -26,9 +27,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${robotoMono.variable} antialiased`}
+        className={`${inter.variable} ${robotoMono.variable} antialiased min-h-screen flex flex-col bg-light`}
       >
-        {children}
+        <Header />
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
