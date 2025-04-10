@@ -18,8 +18,8 @@ module.exports = {
         'mint-light': '#edf2eb',
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-mono)', 'monospace'],
+        sans: ['var(--font-aileron)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-chromate)', 'serif'],
       },
     },
   },
