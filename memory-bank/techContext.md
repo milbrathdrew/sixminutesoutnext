@@ -2,33 +2,33 @@
 
 ## Technologies Used
 1. Core Framework
-   - Next.js
-   - React
+   - Next.js 14
+   - React 18
    - TypeScript
    - Static Site Generation
 
 2. Styling
-   - CSS Modules or Tailwind CSS
+   - Tailwind CSS
    - Responsive design
    - Mobile-first approach
 
 3. Deployment & Hosting
-   - Cloudflare Pages
+   - Cloudflare Pages (migrated from GitHub Pages)
    - GitHub for version control
    - Cloudflare CDN
+   - Static site export with Next.js
 
 4. Analytics & SEO
-   - Google Analytics 4
-   - Google Search Console
-   - XML Sitemap
-   - Meta tags optimization
+   - Next-sitemap for XML sitemap generation
+   - Meta tags implementation
+   - Semantic HTML structure
 
 ## Development Setup
 1. Local Environment
    - Operating System: macOS
    - Shell: zsh
    - Node.js
-   - npm/yarn
+   - npm
    - Git
 
 2. IDE Configuration
@@ -39,16 +39,15 @@
 
 3. Development Tools
    - Next.js CLI
-   - Lighthouse for performance testing
+   - Wrangler for Cloudflare deployments
    - Browser DevTools
    - Responsive design testing tools
 
 ## Technical Constraints
 1. Performance
-   - Lighthouse score target: 90+ in all categories
-   - Core Web Vitals optimization
-   - Image optimization
-   - Font optimization
+   - Core Web Vitals optimization needed
+   - Image optimization with next/image
+   - Font optimization with next/font
 
 2. SEO
    - Semantic HTML with proper heading hierarchy
@@ -56,53 +55,53 @@
    - XML sitemap generation
    - Mobile-first indexing support
 
-3. Email Deliverability
-   - DNS configuration (SPF, DKIM, DMARC)
-   - Clean HTML implementation
-   - Technical separation from email infrastructure
+3. Deployment
+   - Static site export
+   - Cloudflare Pages configuration
+   - Wrangler for deployment management
 
 ## Dependencies
 1. Core Dependencies
-   - Next.js
-   - React
+   - Next.js 14
+   - React 18
    - TypeScript
-   - ESLint
-   - Prettier
-
-2. SEO Dependencies
-   - next-seo
+   - Tailwind CSS
    - next-sitemap
-   - structured-data
 
-3. Performance Dependencies
+2. Font Dependencies
+   - Inter (variable font)
+   - Roboto Mono (variable font)
+
+3. Performance Optimizations
    - next/image for image optimization
    - next/font for font optimization
-   - next/script for script optimization
 
 ## Environment Setup
 1. Local Development
    ```bash
    # Clone repository
-   git clone [repository-url]
+   git clone https://github.com/milbrathdrew/sixminutesoutnext.git
    
    # Install dependencies
    npm install
-   
-   # Set up environment variables
-   cp .env.example .env
    
    # Start development server
    npm run dev
    ```
 
-2. Deployment
-   - Cloudflare Pages setup
-   - GitHub repository connection
-   - Environment variables configuration
-   - Build settings
+2. Build and Export
+   ```bash
+   # Build static site
+   npm run build
+   ```
 
-3. DNS Configuration
-   - SPF record setup
-   - DKIM record setup
-   - DMARC record setup
-   - Domain verification 
+3. Deployment
+   ```bash
+   # Deploy to Cloudflare Pages
+   npm run deploy
+   ```
+
+4. Cloudflare Pages Configuration
+   - Build command: `npm run build`
+   - Deploy command: `npx wrangler deploy`
+   - Build output directory: `dist` 

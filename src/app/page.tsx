@@ -53,6 +53,38 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <section className="max-w-6xl mx-auto py-16 px-4 bg-mint rounded-lg my-16">
+        <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="flex items-center mb-4">
+              <div className="w-16 h-16 bg-green-medium rounded-full flex items-center justify-center text-white text-xl font-bold mr-4">
+                AB
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Amanda Brown</h3>
+                <p className="text-gray">Founder, EcoHome Essentials</p>
+              </div>
+            </div>
+            <p className="italic text-medium-dark">"Six Minutes Out transformed our PR strategy completely. Their media outreach resulted in features in top publications and significantly increased our brand visibility. Couldn't recommend them more highly!"</p>
+          </div>
+          
+          <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="flex items-center mb-4">
+              <div className="w-16 h-16 bg-green-medium rounded-full flex items-center justify-center text-white text-xl font-bold mr-4">
+                JS
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">James Smith</h3>
+                <p className="text-gray">CEO, Organic Beauty Co.</p>
+              </div>
+            </div>
+            <p className="italic text-medium-dark">"The affiliate program management provided by Six Minutes Out has been a game-changer for our business. They've built relationships with key affiliates that drive consistent sales and brand awareness."</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

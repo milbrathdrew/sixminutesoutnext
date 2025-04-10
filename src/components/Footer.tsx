@@ -42,11 +42,6 @@ export default function Footer() {
                     Contact Us
                   </Link>
                 </li>
-                <li>
-                  <a href="mailto:info@sixminutesout.com" className="text-base text-gray-300 hover:text-white">
-                    info@sixminutesout.com
-                  </a>
-                </li>
               </ul>
             </div>
           </div>

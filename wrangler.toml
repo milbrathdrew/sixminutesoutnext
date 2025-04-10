@@ -5,10 +5,6 @@ compatibility_date = "2025-04-10"
 [assets]
 directory = "./dist"
 
-# Disable observability logs as requested
-[observability.logs]
-enabled = false
-
 # Comment out the old configuration
 # [assets]
 # directory = "./out"
