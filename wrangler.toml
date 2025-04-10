@@ -3,7 +3,7 @@ compatibility_date = "2025-04-10"
 
 # Use assets configuration instead of site
 [assets]
-bucket = "./dist"
+directory = "./dist"
 
 # Comment out the old configuration
 # [assets]
