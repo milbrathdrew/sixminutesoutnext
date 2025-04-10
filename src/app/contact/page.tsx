@@ -27,7 +27,7 @@ export default function Contact() {
                 alt="Charlene Hanna"
                 fill
                 style={{ objectFit: 'contain' }}
-                className="bg-mint-light p-3 rounded-full"
+                className="bg-green-medium p-3 rounded-full"
               />
             </div>
             

@@ -83,7 +83,7 @@ export default function About() {
                   alt="Charlene Hanna"
                   fill
                   style={{ objectFit: 'contain' }}
-                  className="bg-green-light p-3 rounded-full"
+                  className="bg-green-medium p-3 rounded-full"
                 />
               </div>
               <h3 className="mt-4 text-2xl font-heading text-dark">Charlene Hanna</h3>

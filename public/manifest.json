@@ -1,0 +1,21 @@
+{
+  "name": "Six Minutes Out PR",
+  "short_name": "Six Minutes Out",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-512.png.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#687964",
+  "background_color": "#f0e8d9",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+} 

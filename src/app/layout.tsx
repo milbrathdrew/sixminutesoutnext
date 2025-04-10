@@ -7,6 +7,25 @@ import { aileron, chromate } from '@/styles/fonts';
 export const metadata: Metadata = {
   title: "Six Minutes Out PR",
   description: "Strategic PR & Affiliate Management for Consumer Products",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      // Use SVG placeholders for now, you'll need to convert these to PNG later
+      { url: '/icons/icon-192.png.svg', type: 'image/svg+xml' },
+      { url: '/icons/icon-512.png.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/icons/apple-icon-180.png.svg', type: 'image/svg+xml' },
+    ],
+    other: [
+      { rel: 'apple-touch-icon', url: '/icons/apple-icon-180.png.svg' },
+      { rel: 'mask-icon', url: '/icons/mask-icon.svg', color: '#687964' }
+    ],
+  },
+  manifest: '/manifest.json',
+  applicationName: 'Six Minutes Out PR',
+  themeColor: '#687964',
 };
 
 export default function RootLayout({
