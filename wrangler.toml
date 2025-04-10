@@ -1,10 +1,14 @@
 name = "smopages"
 compatibility_date = "2025-04-10"
 
+# Use assets configuration instead of site
+[assets]
+bucket = "./dist"
+
 # Comment out the old configuration
 # [assets]
 # directory = "./out"
 
 # Try the newer format for static sites
-[site]
-bucket = "./dist" 
+# [site]
+# bucket = "./dist" 
