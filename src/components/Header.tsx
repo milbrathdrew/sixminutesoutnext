@@ -37,12 +37,6 @@ export default function Header() {
             <Link href="/about" className="py-2 px-1 font-medium text-light hover:text-mint transition-colors">
               About
             </Link>
-            <Link href="/case-studies" className="py-2 px-1 font-medium text-light hover:text-mint transition-colors">
-              Case Studies
-            </Link>
-            <Link href="/blog" className="py-2 px-1 font-medium text-light hover:text-mint transition-colors">
-              Blog
-            </Link>
             <Link href="/contact" className="py-2 px-3 font-medium text-dark bg-mint hover:bg-mint-light rounded-md transition-colors">
               Contact
             </Link>
@@ -75,12 +69,6 @@ export default function Header() {
           </Link>
           <Link href="/about" className="block py-2 px-3 font-medium text-light hover:text-mint rounded-md">
             About
-          </Link>
-          <Link href="/case-studies" className="block py-2 px-3 font-medium text-light hover:text-mint rounded-md">
-            Case Studies
-          </Link>
-          <Link href="/blog" className="block py-2 px-3 font-medium text-light hover:text-mint rounded-md">
-            Blog
           </Link>
           <Link href="/contact" className="block py-2 px-3 font-medium text-dark bg-mint hover:bg-mint-light rounded-md">
             Contact
