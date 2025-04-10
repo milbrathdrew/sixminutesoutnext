@@ -7,70 +7,70 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-light">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
+          <h1 className="text-4xl font-heading text-dark sm:text-5xl">
             Contact Us
           </h1>
-          <p className="mt-4 text-xl text-gray-500">
+          <p className="mt-4 text-xl text-medium-dark">
             Let's discuss how we can help grow your brand
           </p>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           {/* Contact Form */}
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Send us a message</h2>
+          <div className="bg-light-gray p-8 rounded-lg shadow-sm">
+            <h2 className="text-2xl font-heading text-dark">Send us a message</h2>
             <form className="mt-8 space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="name" className="block text-sm font-medium text-medium-dark">
                   Name
                 </label>
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray bg-mint-light shadow-sm focus:border-green-medium focus:ring-green-medium"
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="email" className="block text-sm font-medium text-medium-dark">
                   Email
                 </label>
                 <input
                   type="email"
                   name="email"
                   id="email"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray bg-mint-light shadow-sm focus:border-green-medium focus:ring-green-medium"
                 />
               </div>
               <div>
-                <label htmlFor="company" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="company" className="block text-sm font-medium text-medium-dark">
                   Company
                 </label>
                 <input
                   type="text"
                   name="company"
                   id="company"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray bg-mint-light shadow-sm focus:border-green-medium focus:ring-green-medium"
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="message" className="block text-sm font-medium text-medium-dark">
                   Message
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray bg-mint-light shadow-sm focus:border-green-medium focus:ring-green-medium"
                 ></textarea>
               </div>
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-medium hover:bg-green-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-medium transition-colors"
                 >
                   Send Message
                 </button>
@@ -79,29 +79,19 @@ export default function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Get in touch</h2>
+          <div className="bg-light-gray p-8 rounded-lg shadow-sm">
+            <h2 className="text-2xl font-heading text-dark">Get in touch with Charlene Hanna</h2>
             <div className="mt-8 space-y-6">
               <div>
-                <h3 className="text-lg font-medium text-gray-900">Office Location</h3>
-                <p className="mt-2 text-gray-500">
-                  123 Business Street<br />
-                  Suite 100<br />
-                  San Francisco, CA 94105
+                <h3 className="text-lg font-heading text-dark">Office Location</h3>
+                <p className="mt-2 text-medium-dark">
+                  Denver, Colorado<br />
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-medium text-gray-900">Contact Information</h3>
-                <p className="mt-2 text-gray-500">
-                  Email: info@sixminutesout.com<br />
-                  Phone: (555) 123-4567
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-medium text-gray-900">Business Hours</h3>
-                <p className="mt-2 text-gray-500">
-                  Monday - Friday: 9:00 AM - 6:00 PM<br />
-                  Saturday - Sunday: Closed
+                <h3 className="text-lg font-heading text-dark">Contact Information</h3>
+                <p className="mt-2 text-medium-dark">
+                  Email: <a href="mailto:charlene@sixminutesout.com" className="text-green-medium hover:text-green-dark hover:underline transition-colors">charlene@sixminutesout.com</a><br />
                 </p>
               </div>
             </div>
