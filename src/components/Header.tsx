@@ -25,7 +25,7 @@ export default function Header() {
                 height={50} 
                 className="mr-3"
               />
-              <span className="text-xl font-bold hidden sm:block">Six Minutes Out PR</span>
+              <span className="text-xl font-heading hidden sm:block">Six Minutes Out PR</span>
             </Link>
           </div>
 

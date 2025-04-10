@@ -1,18 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
-  subsets: ["latin"],
-});
+import { aileron, chromate } from '@/styles/fonts';
 
 export const metadata: Metadata = {
   title: "Six Minutes Out PR",
@@ -27,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${robotoMono.variable} antialiased min-h-screen flex flex-col bg-light`}
+        className={`${aileron.variable} ${chromate.variable} font-sans antialiased min-h-screen flex flex-col bg-light`}
       >
         <Header />
         <main className="flex-grow">
