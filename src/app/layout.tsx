@@ -48,7 +48,7 @@ export default function RootLayout({
           id="glance-cobrowse"
           data-groupid="21483"
           data-site="staging"
-          src="https://www.glancecdn.net/cobrowse/CobrowseJS.ashx?groupid=21483&site=staging"
+          src="https://www.glancecdn.net/cobrowse/CobrowseJS.ashx?groupid=21483&site=staging&script=XDOM"
           strategy="afterInteractive"
         />
       </body>
