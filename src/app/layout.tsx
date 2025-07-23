@@ -3,7 +3,6 @@ import "./globals.css";
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { aileron, chromate } from '@/styles/fonts';
-import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Six Minutes Out PR",
@@ -44,13 +43,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script
-          id="glance-cobrowse"
-          data-groupid="21483"
-          data-site="staging"
-          src="https://www.glancecdn.net/cobrowse/CobrowseJS.ashx?groupid=21483&site=staging&script=XDOM"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
